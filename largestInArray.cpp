@@ -4,14 +4,14 @@ public:
     int largest(vector<int> &arr)
     {
         int n = arr.size();
-        int maxi = arr[0];
+        int maxiVal = arr[0];
         for (int i = 0; i < n; i++)
         {
-            if (arr[i] > maxi)
+            if (arr[i] > maxiVal)
             {
-                maxi = arr[i];
+                maxiVal = arr[i];
             }
         }
-        return maxi;
+        return maxiVal;
     }
 };
